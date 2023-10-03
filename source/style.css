@@ -16,7 +16,7 @@
     @apply  hover:bg-blue-600 hover:text-white
 }
 .sectionHolder{
-    @apply flex  w-11/12 m-auto pt-10
+    @apply block md:flex  w-11/12 m-auto pt-10
 }
 .sectionH3{
     @apply  flex justify-center text-xl pt-8 text-yellow-600
@@ -32,4 +32,10 @@
 }
 .foodImg{
     @apply w-10/12 object-contain m-auto p-2 rounded-xl
+}
+.serviceGrid{
+    @apply md:grid grid-cols-4
+}
+.foodGrid{
+    @apply md:grid grid-cols-4 pt-16 w-11/12 m-auto
 }
