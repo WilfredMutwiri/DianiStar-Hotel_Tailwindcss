@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <div class="bg-black h-16 flex justify-between">
+        <div class="bg-black h-14 flex justify-between" id="header">
             <div class="flex p-3">
                 <div>
                     <img class="w-10 rounded-full" src="public/images/Screenshot 2023-10-01 142247.png">
@@ -18,13 +18,14 @@
                 </div>
             </div>
             <div class="mr-16  md:mt-5">
-                <div class="text-gray-50 w-8 ml-10 mt-5 md:hidden">
+                <div class="text-gray-50 w-8 ml-10 mt-5 md:hidden" id="menu">
                 <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-3">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                   </svg>
                 </div>
-                <nav>
-                    <ul class="block md:flex text-gray-50">
+                <div class=" hidden bg-gray-300 shadow-xl" id="navHolder">
+                <nav id="nav">
+                    <ul class="block md:flex text-black">
                         <li class="navli"><a href="#home">Home</a></li>
                         <li class="navli"><a href="#about">About</a></li>
                         <li class="navli"><a href="#services">Services</a></li>
@@ -32,6 +33,7 @@
                         <li class="navli"><a href="#contacts">Contacts</a></li>
                     </ul>
                 </nav>
+                </div>
             </div>
         </div>
     </header>
@@ -259,5 +261,6 @@
             </div>
         </section>
     </main>
+    <script src="public/script.js"></script>
 </body>
 </html>
