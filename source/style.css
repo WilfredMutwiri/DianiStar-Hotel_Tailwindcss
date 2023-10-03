@@ -39,3 +39,6 @@
 .foodGrid{
     @apply md:grid grid-cols-4 pt-16 w-11/12 m-auto
 }
+#navHolder{
+    @apply bg-black
+}
