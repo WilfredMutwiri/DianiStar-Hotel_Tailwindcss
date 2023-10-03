@@ -22,7 +22,8 @@
                     <ul class="flex text-gray-50">
                         <li class="navli"><a href="#home">Home</a></li>
                         <li class="navli"><a href="#about">About</a></li>
-                        <li class="navli">Services</li>
+                        <li class="navli"><a href="#services">Services</a></li>
+                        <li class="navli"><a href="#foods">Our Foods</a></li>
                         <li class="navli">Contacts</li>
                     </ul>
                 </nav>
@@ -44,7 +45,7 @@
                             <a class="ml-4 text-lg" href="#about">learn More</a>
                         </div>
                         <div class="btn" id="btn">
-                            <a class="ml-4" href="#">Order Meal</a>
+                            <a class="ml-4" href="#foods">Order Meal</a>
                         </div>
                     </div>
                 </div>
@@ -55,10 +56,10 @@
         </section>
         <!--about section-->
         <section>
-            <div class="bg-gray-50 mb-40 pt-10" id="about">
+            <div class="bg-gray-50 mb-40 pt-8" id="about">
                 <h3 class="sectionH3">~~ About DianiStar Hotel ~~</h3>
                 <div  class="sectionHolder">
-                <div class=" w-full mt-9">
+                <div class=" w-11/12 mt-8">
                     <img class="rounded ml-10 object-contain"src="public/images/Screenshot 2023-10-01 154954.png">
                 </div>
                 <div class=" mr-36 mt-14 w-11/12">
@@ -71,29 +72,115 @@
         </section>
         <!--the services section-->
         <section>
-            <div>
-                <div>
+            <div class="bg-gray-200 pb-14" id="services"><!--section container-->
+                <div class="pt-10 w-11/12 m-auto"><!--content holder-->
                     <h3 class="sectionH3">~~ Our Services ~~</h3>
-                    <p>
+                    <p class="pt-9">
                         We have a wide range of services available to our esteem customers. Below are just some of the services that we offer, to learn more on each service and the cost, kindly click the link below each service writen,<em>Continue reading.</em>
-                    </p
-                    <div class="grid columns-3">
-                        <div>
-                            <h4>accomodation</h4>
+                    </p>
+                    <div class="grid grid-cols-4"><!--services holder-->
+                        <div class="serviceHolder">
+                            <h4 class="service"><img class="w-10 m-auto" src="public/images/Screenshot 2023-10-02 183906.png"><span class="pl-10 text-yellow-500">Accomodation</span></h4>
+                            <hr class="pb-4">
                             <p>
                                 Our well trained accomodation personell offer warm accomodation to our customers. We have large and awesome bedrooms that give every customer a warm feeling of the coast! We also offer dinner and breakfast to our customers, the best part is that the breakfast is served in the bedroom, <a href="#" class="text-blue-700">Continue reading></a>
                             </p>
                         </div>
-                        <div>
-                            <h4>Massage</h4>
+                        <div class="serviceHolder">
+                            <h4 class="service"><img class="w-10 m-auto" src="public/images/Screenshot 2023-10-02 184000.png"><span class="pl-20 text-yellow-500">Massage</span></h4><hr class="pb-4">
                             <p>
-                                Do you feel exhausted and worn out? Are your muscles aching from a long day's work? The you are not lost, at DianiStar hotel, we have you covered. We offer massage services at a pocket friendly price. The massage however has different categories, ranging from normal to premium services.<a href="#" class="text-blue-700">Continue reading/a>
+                                Do you feel exhausted and worn out? Are your muscles aching from a long day's work? The you are not lost, at DianiStar hotel, we have you covered. We offer massage services at a pocket friendly price. The massage however has different categories, ranging from normal to premium services.<a href="#" class="text-blue-700">Continue reading></a>
+                            </p>
+                        </div>
+                        <div class="serviceHolder">
+                            <h4 class="service"><img class="w-10 m-auto" src="public/images/Screenshot 2023-10-02 190936.png"><span class="pl-20 text-yellow-500">Parking</span></h4><hr class="pb-4">
+                            <p>
+                                You have no need to worry about the parking slot that you will use. Our hotel has a huge parking spot capable of accomodating as many cars as the total number of people in the hotel. In terms of ensuring your cars' safety, our security team is well trained to cater for any insecurity issues.<a href="#" class="text-blue-700">Continue reading></a>
+                            </p>
+                        </div>
+                        <div class="serviceHolder">
+                            <h4 class="service"><img class="w-10 m-auto" src="public/images/Screenshot 2023-10-02 191107.png"><span class="pl-9 text-yellow-500">24Hr Reception</span></h4><hr class="pb-4">
+                            <p>
+                                We are always ready to guide you into the hotel. Our reception team is among the most calm and warm people you will ever meet on earth. In case of misconduct by any of our reception team, kindly let us know through our contacts at the bottom of this site. <a href="#" class="text-blue-700">Continue reading></a>
                             </p>
                         </div>
                     </div>
                 </div>
+        </section>
+        <!--food section-->
+        <section>
+            <div class="pt-20 bg-gray-50" id="foods"><!--food holder-->
+                <h3 class="sectionH3">~~ Our Foods ~~</h3>
+                <div class="grid grid-cols-4 pt-16 w-11/12 m-auto"><!--first food column-->
+                    <div class="foodHolder">
+                        <img class="foodImg" src="public/images/Screenshot 2023-10-01 154445.png">
+                        <p class="p-9">
+                            <strong>Hambuger</strong><span class="text-lg text-yellow-600 font-bold"> $15</span><a href="#" class="text-blue-600"> Order Now!</a>
+                        </p>
+                    </div>
+                    <div class="foodHolder">
+                        <img class="foodImg" src="public/images/Screenshot 2023-10-01 154542.png">
+                        <p class="p-9">
+                            <strong>Spaghetti</strong><span class="text-lg text-yellow-600 font-bold"> $10</span><a href="#" class="text-blue-600"> Order Now!</a>
+                        </p>
+                    </div>
+                    <div class="foodHolder">
+                        <img class="foodImg" src="public/images/Screenshot 2023-10-01 154635.png">
+                        <p class="p-9">
+                            <strong>Biriani rice $ Beef</strong><span class="text-lg text-yellow-600 font-bold"> $19</span><a href="#" class="text-blue-600"> Order Now!</a>
+                        </p>
+                    </div>
+                    <div class="foodHolder">
+                        <img class="foodImg" src="public/images/Screenshot 2023-10-01 154706.png">
+                        <p class="p-9">
+                            <strong>Black Mountain Cake</strong><span class="text-lg text-yellow-600 font-bold"> $22</span><a href="#" class="text-blue-600"> Order Now!</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-4 pt-16 w-11/12 m-auto"><!--second food column-->
+                    <div class="foodHolder">
+                        <img class="foodImg" src="public/images/Screenshot 2023-10-02 191141.png">
+                        <p class="p-9">
+                            <strong>Pilau</strong><span class="text-lg text-yellow-600 font-bold"> $12</span><a href="#" class="text-blue-600"> Order Now!</a>
+                        </p>
+                    </div>
+                    <div class="foodHolder">
+                        <img class="foodImg" src="public/images/Screenshot 2023-10-02 191215.png">
+                        <p class="p-9">
+                            <strong>Roasted Beef</strong><span class="text-lg text-yellow-600 font-bold"> $24/Kg</span><a href="#" class="text-blue-600"> Order Now!</a>
+                        </p>
+                    </div>
+                    <div class="foodHolder">
+                        <img class="foodImg" src="public/images/Screenshot 2023-10-02 191304.png">
+                        <p class="p-9">
+                            <strong>Matoke</strong><span class="text-lg text-yellow-600 font-bold"> $11</span><a href="#" class="text-blue-600"> Order Now!</a>
+                        </p>
+                    </div>
+                    <div class="foodHolder">
+                        <img class="foodImg" src="public/images/Screenshot 2023-10-02 191405.png">
+                        <p class="p-9">
+                            <strong>Chapati</strong><span class="text-lg text-yellow-600 font-bold"> $0.25/piece</span><a href="#" class="text-blue-600"> Order Now!</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-4 pt-16 w-11/12 m-auto"><!--third food column-->
+                    <div class="foodHolder">
+                        <img class="foodImg w-11" src="public/images/Screenshot 2023-10-02 191429.png">
+                        <p class="p-9">
+                            <strong>Mandazi</strong><span class="text-lg text-yellow-600 font-bold"> $0.10/piece</span><a href="#" class="text-blue-600"> Order Now!</a>
+                        </p>
+                    </div>
+                    <div class="foodHolder">
+                        <img class="foodImg" src="public/images/Screenshot 2023-10-02 191513.png">
+                        <p class="p-9">
+                            <strong>French Wine</strong><span class="text-lg text-yellow-600 font-bold"> $32</span><a href="#" class="text-blue-600"> Order Now!</a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
+
+        
     </main>
 </body>
 </html>

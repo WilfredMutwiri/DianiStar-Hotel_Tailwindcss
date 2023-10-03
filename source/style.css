@@ -21,3 +21,15 @@
 .sectionH3{
     @apply  flex justify-center text-xl pt-8 text-yellow-600
 }
+.service{
+    @apply font-bold text-lg p-3 rounded
+}
+.serviceHolder{
+    @apply bg-gray-50 p-3 m-3 shadow-sm rounded-md pb-14
+}
+.foodHolder{
+    @apply w-11/12 bg-gray-100
+}
+.foodImg{
+    @apply w-10/12 object-contain m-auto p-2 rounded-xl
+}
